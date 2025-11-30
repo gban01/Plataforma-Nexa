@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Nexa</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <!-- Ícones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/home.css">
+</head>
+
+<body>
+
+    <!-- CABEÇALHO -->
+    <header>
+        <div class="cabeçalho">
+            <!-- Logo -->
+            <div class="logo">
+                <a href="home.html">
+                    <img src="img/logo.png" alt="NEXA" width="100">
+                </a>
+            </div>
+            <!-- Navegação -->
+            <nav class="Catalogo">
+                <ul>
+                    <li><a href="#catalogo-section">Catálago</a></li>
+                    <li><a href="https://gabrieldevcristino.netlify.app">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header><!--FINAL CABECALHO-->
+    <div class="topo-do-site"><!--topo site -->
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="/img/Home.mp4" type="video/mp4">
+        </video>
+        <div class="brand">
+            <img src="img/logo.png" alt="Logo do Site" class="logo-tilt">
+            <p class="brand-desc">
+                <span class="neon-red">Desenvolvimento Web:</span> Sites feitos do zero, pensados para conectar pessoas,
+                fortalecer marcas e inspirar confiança a cada clique.
+            </p>
+        </div>
+        <div class="botoes">
+            <a class="btn" href="https://api.whatsapp.com/send?phone=5585991135242&text=Olá!%20Vamos%20tirar%20minha%20ideia%20do%20site%20do%20papel?%20Quero%20um%20site%20premium!">Criar meu site Pro agora</a>
+        </div>
+        <div class="fade-bottom"></div>
+    </div><!--FINAL topo site -->
+
+    <section class="sobre-nos">
+    <div class="container">
+        <div class="conteudo">
+            <div class="imagem">
+                <a href="home.html" class="logo-link">
+                    <img src="img/logo.png" alt="NEXA" class="logo">
+                </a>
+            </div>
+            <div class="texto">
+                <h2 class="titulo">Sobre a Nexa</h2>
+                <p class="descricao">
+                    A Nexa é uma agência digital criada para ajudar pequenas e médias empresas a se destacarem no mundo online. Nosso objetivo é transformar ideias em experiências visuais e digitais que realmente conectem com o público.
+                </p>
+                <p class="descricao">
+                    Oferecemos sites funcionais, artes de marketing impactantes e conteúdos animados que dão vida à sua marca. Cada projeto é personalizado, combinando estética, tecnologia e praticidade — para que você tenha presença online de qualidade, sem complicações.
+                </p>
+                <p class="descricao">
+                    Na Nexa, valorizamos transparência, criatividade e resultados reais. Queremos que cada cliente se sinta confiante e bem representado, com soluções modernas, acessíveis e totalmente adaptadas às suas necessidades.
+                </p>
+                <p class="descricao destaque">
+                    Com a Nexa, sua marca não apenas existe na web — ela se destaca, se comunica e conquista clientes.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="catalogo-section" id="catalogo-section">
+        <h2 class="catalogo-title">Catálogo</h2>
+
+        <div class="catalogo-container">
+
+            <div class="produto" data-price="120">
+                <img src="/img/Produto3.png" alt="Imagem pra Marketing" />
+                <h3>Arte Marketing</h3>
+                <p class="descricao">Criação de peças visuais exclusivas que elevam sua presença no digital com
+                    identidade e propósito.</p>
+                <button class="btn-price" id="btnOff">R$ 120</button>
+            </div>
+
+            <!-- Produto Principal -->
+            <div class="produto principal" data-price="0">
+                <img src="/img/produto1.png" alt="Criação de Site" />
+                <h3>Criação de Site</h3>
+                <p class="descricao">Site profissional personalizado para sua empresa, sem modelos prontos. Único como
+                    seu negócio.</p>
+                <button class="btn-price" id="btnMain">a combinar</button>
+            </div>
+
+            <!-- Produto Direito -->
+            <div class="produto" data-price="180">
+                <img src="/img/Produto2.png" alt="Imagens Vivas" />
+                <h3>Imagens Vivas</h3>
+                <p class="descricao">Damos vida a imagens estáticas com vídeos e animações que destacam sua marca no
+                    marketing digital.</p>
+                <button class="btn-price" id="btnOn">R$ 180</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="dashboard-premium"><!--DASHBORAD -->
+        <h2 class="dash-title">
+            <span class="neon-red">Impacto</span> de um Site nas Empresas
+        </h2>
+
+        <div class="compare-container">
+
+            <!-- LADO 1 -->
+            <div class="side side-off">
+                <h3>Empresas SEM Site</h3>
+
+                <ul class="points">
+                    <li>❌ Poucas pessoas alcançadas</li>
+                    <li>❌ Pouco reconhecimento</li>
+                    <li>❌ Baixa credibilidade no mercado</li>
+                    <li>⚠ Alto risco de falência em 5 anos</li>
+                    <li>⏳ Crescimento lento ou inexistente</li>
+                    <li>🔇 Marca pouco lembrada</li>
+                </ul>
+
+                <div class="metric">
+                    <div class="label">Reconhecimento</div>
+                    <div class="number" id="numOff">0</div>
+                </div>
+            </div>
+
+            <!-- LADO 2 -->
+            <div class="side side-on">
+                <h3>Empresas COM Site</h3>
+
+                <ul class="points">
+                    <li>✅ Alcance gigante de pessoas</li>
+                    <li>✅ Muito reconhecimento e respeito</li>
+                    <li>✅ Alta credibilidade no mercado</li>
+                    <li>🚀 Crescimento acelerado</li>
+                    <li>🔔 Marca lembrada com facilidade</li>
+                </ul>
+
+                <div class="metric">
+                    <div class="label">Aumento de ganhos</div>
+                    <div class="number" id="numOn">0</div>
+                </div>
+
+                <div class="extra">⬆ 70% mais crescimento</div>
+                <div class="extra">💰 70% mais ganhos</div>
+                <div class="highlight">
+                    🚀 70% das empresas lucram 70% a mais com um site
+                </div>
+            </div>
+
+        </div>
+
+        <!-- BARRA COMPARATIVA -->
+        <div class="dash-compare">
+            <div class="label">Vantagem de Empresas COM Site</div>
+            <div class="bar">
+                <div class="progress" id="progressPremium"></div>
+            </div>
+            <div class="percent-label" id="percentPremium">0%</div>
+        </div>
+    </section><!-- FINAL DASHBORAD -->
+
+<section id="contact" class="section"><!--inicio- contato-->
+    <div class="container">
+        <!-- Video de fundo 
+        <video class="videofinal" autoplay muted loop playsinline>
+            <source src="caso vc queira colocar algo em baixo do contatos como background " type="video/mp4">
+            Seu navegador não suporta vídeo.
+        </video>-->
+        <div class="fade-top"></div>
+        
+
+        <div class="contact-content">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:gabriel.oficial.cristino@gmail.com?subject=Contato%20do%20site&body=Olá%20Gabriel,%20gostaria%20de%20falar%20sobre..."
+                        aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+                    <p>gabriel.oficial.cristino@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://wa.me/5585991135242" aria-label="WhatsApp"><i class="bi bi-telephone-fill"></i></a>
+                    <p>+55 (85) 99113-5242</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://www.google.com/maps?q=Ceará,+Fortaleza" target="_blank" aria-label="Localização">
+                        <i class="bi bi-geo-alt-fill"></i></a>
+                    <p>Ceará, Fortaleza</p>
+                </div>
+                <div class="contact-item">
+                    <i class="bi bi-clock-fill"></i>
+                    <p>Disponível de segunda a sábado, das 8h às 22h</p>
+                </div>
+                <div class="social-links-contact">
+                    <a href="https://www.linkedin.com/in/gabrielcristino1" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                    <a href="https://github.com/gban01" aria-label="GitHub"><i class="bi bi-github"></i></a>
+                    <a href="https://www.youtube.com/@gbanndream/videos" aria-label="Youtube"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.instagram.com/eugbazinoficial/" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="https://wa.me/5585991135242" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <form action="mailto:gabriel.oficial.cristino@gmail.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <input type="text" name="name" placeholder="Seu nome" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="email" placeholder="Seu Email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="subject" placeholder="Assunto" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Sua mensagem" rows="6" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Mande uma mensagem!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+
+    <script src="js/home.js"></script>
+</body>
+
+</html>
