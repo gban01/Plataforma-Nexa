@@ -13,7 +13,7 @@ A proposta não é vender diretamente, mas sim **apresentar portfólio, serviço
 ---
 
 ## 📸 Preview do Site
-![Portfolio Screenshot](Site.png)
+![Portfolio Screenshot](Site.jpg)
 
 ---
 
