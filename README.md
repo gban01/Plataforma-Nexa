@@ -53,5 +53,5 @@ A proposta não é vender diretamente, mas sim **apresentar portfólio, serviço
 
 ```bash
 git clone https://github.com/gban01/Plataforma-Nexa.git
-cd "Sites preview"
+cd "Plataforma Nexa"
 open home.html
